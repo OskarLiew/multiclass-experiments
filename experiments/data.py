@@ -1,5 +1,5 @@
-from sklearn.datasets import make_classification
 import numpy.typing as npt
+from sklearn.datasets import make_classification
 
 
 def make_dataset(n_classes: int, class_size: int) -> tuple[npt.NDArray, npt.NDArray]:
